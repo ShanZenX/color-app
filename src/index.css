@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Neucha&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkcyan;
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sub-box {
+  border-radius: 5px;
+  background-color: #dddddd;
+  width: 300px;
+  height: 350px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  border-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Neucha', cursive;
+
+}
+
+.input-box input {
+  border: 2px solid #dddddd;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 5px 5px;
+}
+
+input[type=text]:focus {
+  border: 2px solid #989494;
+}
+
+.input-box button {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  border: 0cap;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.22);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #008b8b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
